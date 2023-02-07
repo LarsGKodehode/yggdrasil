@@ -15,11 +15,11 @@ This is a monorepo I intend to use for my own personal projects. Depending on ho
 - 1.0.0 - **The Wheel Turns**
   - Homepage finished, first iteration
 - 0.7.0 - **I Robot**
-  - Basic full CICD pipline
+  - Basic full CICD pipline running
 - 0.6.0 - **Robota**
-  - Manual deployment to hosting provider
+  - Manual deployment to hosting provider setup
 - 0.5.0 - **ISO 668**
-  - App containarization
+  - App containarization standardized
 - 0.4.0 - **Strike the Earth**
   - First app scaffold running
 - 0.3.0 - **Grimm**
