@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import ReactCommonUi from './ReactCommonUi';
+import { Dropdown } from './Dropdown';
 
-describe('ReactCommonUi', () => {
+describe('Dropdown', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<ReactCommonUi />);
+    const { baseElement } = render(<Dropdown />);
     expect(baseElement).toBeTruthy();
   });
 });
