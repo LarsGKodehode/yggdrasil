@@ -38,6 +38,7 @@ specifiers:
   jest: 28.1.1
   jest-environment-jsdom: 28.1.1
   nx: 15.6.3
+  only-allow: ^1.1.1
   prettier: ^2.6.2
   react: 18.2.0
   react-dom: 18.2.0
@@ -92,6 +93,7 @@ devDependencies:
   jest: 28.1.1_odkjkoia5xunhxkdrka32ib6vi
   jest-environment-jsdom: 28.1.1
   nx: 15.6.3
+  only-allow: 1.1.1
   prettier: 2.8.3
   react-refresh: 0.10.0
   react-test-renderer: 18.2.0_react@18.2.0
@@ -5235,6 +5237,20 @@ packages:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
 
+  /boxen/4.2.0:
+    resolution: {integrity: sha512-eB4uT9RGzg2odpER62bBwSLvUeGC+WbRjjyyFhGsKnc8wp/m0+hQsMUvUe3H2V0D5vw0nBdO1hCJoZo5mKeuIQ==}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-align: 3.0.1
+      camelcase: 5.3.1
+      chalk: 3.0.0
+      cli-boxes: 2.2.1
+      string-width: 4.2.3
+      term-size: 2.2.1
+      type-fest: 0.8.1
+      widest-line: 3.1.0
+    dev: true
+
   /boxen/5.1.2:
     resolution: {integrity: sha512-9gYgQKXx+1nP8mP7CzFyaUARhg7D3n1dF/FnErWmu9l6JvGpNUN278h0aSb+QjoiKSWG+iZ3uHrcqk0qrY9RQQ==}
     engines: {node: '>=10'}
@@ -5420,6 +5436,14 @@ packages:
       ansi-styles: 3.2.1
       escape-string-regexp: 1.0.5
       supports-color: 5.5.0
+    dev: true
+
+  /chalk/3.0.0:
+    resolution: {integrity: sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
     dev: true
 
   /chalk/4.1.0:
@@ -9834,6 +9858,14 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
+  /only-allow/1.1.1:
+    resolution: {integrity: sha512-WE01hpInLQUF3MKK7vhu4p1VZLKb4rL4d+CI3rwwwsToXELx6YawNFhZy3rVU3rpQpI9kF9zFMk4OjB3xwXdJA==}
+    hasBin: true
+    dependencies:
+      boxen: 4.2.0
+      which-pm-runs: 1.1.0
+    dev: true
+
   /open/7.4.2:
     resolution: {integrity: sha512-MVHddDVweXZF3awtlAS+6pgKLlm/JgxZ90+/NBurBoQctVOOB/zDdVjcyPzQ+0laDGbsWgrRkflI65sQeOgT9Q==}
     engines: {node: '>=8'}
@@ -11827,6 +11859,11 @@ packages:
       memoizerific: 1.11.3
     dev: true
 
+  /term-size/2.2.1:
+    resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
+    engines: {node: '>=8'}
+    dev: true
+
   /terminal-link/2.1.1:
     resolution: {integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==}
     engines: {node: '>=8'}
@@ -12639,6 +12676,11 @@ packages:
       is-set: 2.0.2
       is-weakmap: 2.0.1
       is-weakset: 2.0.2
+    dev: true
+
+  /which-pm-runs/1.1.0:
+    resolution: {integrity: sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==}
+    engines: {node: '>=4'}
     dev: true
 
   /which-typed-array/1.1.9:
