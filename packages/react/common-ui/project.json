@@ -44,6 +44,31 @@
           "codeCoverage": true
         }
       }
+    },
+    "storybook": {
+      "executor": "@nrwl/storybook:storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "packages/react/common-ui/.storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@nrwl/storybook:build",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "outputDir": "dist/storybook/react-common-ui",
+        "configDir": "packages/react/common-ui/.storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
     }
   }
 }
