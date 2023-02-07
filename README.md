@@ -3,13 +3,13 @@
 ## Content
 - [About](#about)
 - [Roadmap](#roadmap)
-- [Design Decisions](#design-decisions)
+- [Design decisions](#design-decisions)
 - [Libraries in this repository](#libraries-in-this-repository)
-  - [Application Libraries](#application-libraries)
-  - [Development Tooling](#development-tooling)
+  - [Application libraries](#application-libraries)
+  - [Development tooling](#development-tooling)
 
 ## About
-This is a monorepo I intend to use for my own personal curiosity. Depending on what how much I branch out I might have to switch over to Bazel for a broader language s upport.
+This is a monorepo I intend to use for my own personal projects. Depending on how much I branch out, I might switch over to Bazel for broader language upport.
 
 ## Roadmap
 - 1.0.0 - **The Wheel Turns**
