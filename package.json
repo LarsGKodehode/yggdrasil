@@ -2,7 +2,9 @@
   "name": "yggdrasil",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "px only-allow pnpm"
+  },
   "private": true,
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
