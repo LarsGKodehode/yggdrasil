@@ -6,6 +6,12 @@
     "preinstall": "px only-allow pnpm",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "{apps,libs}/**/*.{ts,tsx,json,md,css,html}": [
+      "nx format:write --uncommitted",
+      "nx affected:lint --uncommitted --parallel --fix=true"
+    ]
+  },
   "private": true,
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
