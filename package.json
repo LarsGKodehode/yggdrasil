@@ -7,7 +7,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "{apps,libs}/**/*.{ts,tsx,json,md,css,html}": [
+    "{apps,libs,packages}/**/*.{js,jsx,ts,tsx,json,md,css,html}": [
       "nx format:write --uncommitted",
       "nx affected:lint --uncommitted --parallel --fix=true"
     ]
