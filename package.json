@@ -15,6 +15,8 @@
     "@nrwl/storybook": "^15.6.3",
     "@nrwl/webpack": "^15.6.3",
     "@nrwl/workspace": "15.6.3",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@svgr/webpack": "^6.1.2",
     "@testing-library/react": "13.4.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
@@ -22,8 +24,10 @@
     "cypress": "^12.2.0",
     "nx": "15.6.3",
     "prettier": "^2.6.2",
+    "react-refresh": "^0.10.0",
     "react-test-renderer": "18.2.0",
-    "typescript": "~4.8.2"
+    "typescript": "~4.8.2",
+    "url-loader": "^4.1.1"
   },
   "dependencies": {
     "react": "18.2.0",
