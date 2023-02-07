@@ -10,6 +10,7 @@
     "@nrwl/js": "15.6.3",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/react": "^15.6.3",
+    "@nrwl/storybook": "^15.6.3",
     "@nrwl/workspace": "15.6.3",
     "@testing-library/react": "13.4.0",
     "@types/node": "18.11.9",
