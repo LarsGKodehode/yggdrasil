@@ -9,9 +9,9 @@
   - [Development tooling](#development-tooling)
 
 ## About
-This is a monorepo I intend to use for my own personal projects. Depending on how much I branch out, I might switch over to Bazel for broader language upport.
+This is a monorepo I intend to use for my own personal projects. 
 
-## Roadmap
+## Roadmap **v0.4.0 - CURRENT**
 - 1.0.0 - **The Wheel Turns**
   - Homepage finished, first iteration
 - 0.7.0 - **I Robot**
@@ -20,7 +20,7 @@ This is a monorepo I intend to use for my own personal projects. Depending on ho
   - Manual deployment to hosting provider setup
 - 0.5.0 - **ISO 668**
   - App containarization standardized
-- 0.4.0 - **Strike the Earth**
+- 0.4.0 - **Strike the Earth**</u>
   - First app scaffold running
 - 0.3.0 - **Grimm**
   - Storybook running
@@ -42,13 +42,10 @@ TODO
 TODO
 
 ### Development Tooling
-TODO
-
-
-
-
-
-
+- NX build System<br/>
+Depending on how much I branch out, I might switch over to Bazel for broader language upport.
+- NX build System<br/>
+Depending on how much I branch out, I might switch over to Bazel for broader language upport.
 
 ## Build System
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
